@@ -1,0 +1,29 @@
+:root, .theme {
+    --ls-primary: #42b983;
+    --ls-fallback: #2c3e50;
+    --ls-dark-background: #111;
+    --ls-gray-text: #666;
+}
+
+.btn-theme {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    background-color: var(--ls-primary);
+    border: 1px solid black;
+}
+
+.theme-sea {
+    --ls-primary: #204e4a;
+}
+
+.theme-violet {
+    --ls-primary: #90708C;
+}
+
+.theme-blue {
+    --ls-primary: #3aaed8;
+}
+.theme-white {
+    --ls-primary: #EFE6DD;
+}
