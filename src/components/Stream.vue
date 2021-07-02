@@ -28,9 +28,13 @@ export default {
 
 <style scoped>
 .stream-player {
-  width: 100vw;
-  border: 0;
-  height: 100%;
+    width: 100vw;
+    border: 0;
+    margin: 0;
+    height: 100%;
+    min-height: 82vh;
+    display: flex;
+    flex-grow: 2;
 }
 
 .stream-name {
