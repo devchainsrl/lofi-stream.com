@@ -14,6 +14,9 @@
       <div
         class="theme-switcher"
       >
+        <div class="text-amber">
+          Themes
+        </div>
         <div
           v-for="(theme, index) in themes"
           :key="index"

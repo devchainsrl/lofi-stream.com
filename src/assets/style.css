@@ -5,7 +5,10 @@
     --ls-gray-text: #666;
     --ls-light-text: #fff;
 }
-
+.theme-switcher {
+    display: flex;
+    flex-direction: row;
+}
 .btn-theme {
     width: 32px;
     height: 32px;
