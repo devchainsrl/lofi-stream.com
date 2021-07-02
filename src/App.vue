@@ -1,13 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <Header />
+  <StreamContainer />
+  <Footer />
 </template>
 
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
 
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+import Footer from './components/Footer.vue'
+import Header from './components/Header.vue'
+import StreamContainer from './components/StreamContainer.vue'
+
+export default {
+  components: { Header, Footer, StreamContainer }
+}
 </script>
 
 <style>
@@ -17,6 +22,5 @@ import HelloWorld from './components/HelloWorld.vue'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
