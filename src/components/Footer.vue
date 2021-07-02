@@ -1,6 +1,5 @@
 <template>
   <div>
-    Footer
     <div class="channel-switcher">
       Channel Switcher:
       <div

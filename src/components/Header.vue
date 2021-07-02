@@ -1,6 +1,6 @@
 <template>
   <div>
-    Header
+    Lo-Fi Stream
   </div>
 </template>
 
