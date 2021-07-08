@@ -34,7 +34,7 @@ export default {
   data: () => {
     return {
       selectedStreamIndex: 0,
-      selectedTheme: 'default',
+      selectedTheme: 'gold',
       supportedThemes: [
         'sea', 'violet', 'blue', 'white'
       ],

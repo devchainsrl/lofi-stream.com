@@ -28,16 +28,21 @@ export default {
 
 <style scoped>
 .stream-player {
-    width: 100vw;
+    height: inherit;
     border: 0;
     margin: 0;
-    height: 100%;
-    min-height: 82vh;
     display: flex;
     flex-grow: 2;
+    vertical-align: auto;
+}
+
+.stream-player-youtube {
+    width: 100vw;
+    min-height: calc(100vh - 256px);
+    height: calc(100vh - 150px)
 }
 
 .stream-name {
-    color: var(--ls-primary);
+    color: var(--ls-light-text);
 }
 </style>

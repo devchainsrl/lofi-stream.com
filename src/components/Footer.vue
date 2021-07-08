@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="channel-switcher">
+    <div class="footer-section channel-switcher">
       Channel Switcher:
       <div
         v-for="(stream, index) in streams"
@@ -10,34 +10,29 @@
           #{{ index }}: {{ stream.name }}
         </button>
       </div>
-      <div
+      <ThemeSwitcher
+        :themes="themes"
         class="theme-switcher"
-      >
-        <div class="text-amber">
-          Themes
-        </div>
-        <div
-          v-for="(theme, index) in themes"
-          :key="index"
-        >
-          <button
-            :class="'btn-theme theme-' + theme"
-            @click="() => $emit('switchTheme', theme)"
-          />
-        </div>
-      </div>
+        @switchTheme="$emit('switchTheme', $event)"
+      />
     </div>
   </div>
 </template>
 
 <script>
+
+import ThemeSwitcher from './ThemeSwitcher.vue'
 export default {
   name: 'Footer',
+  components: {
+    ThemeSwitcher
+  },
   props: {
     streams: {
       type: Array,
       required: true
     },
+
     themes: {
       type: Array,
       required: true

@@ -1,14 +1,16 @@
 :root, .theme {
-    --ls-primary: #42b983;
+    --ls-primary: #1b9aaa;
     --ls-fallback: #2c3e50;
     --ls-dark-background: #111;
     --ls-gray-text: #666;
     --ls-light-text: #fff;
 }
+
 .theme-switcher {
     display: flex;
     flex-direction: row;
 }
+
 .btn-theme {
     width: 32px;
     height: 32px;
@@ -17,19 +19,41 @@
     border: 1px solid black;
 }
 
+/** premium themes **/
+.theme-onyx {
+    --ls-primary: #454545;
+}
+
+.theme-gold {
+    --ls-primary: #222;
+    --ls-light-text: #edae49;
+    --ls-gray-text: #febf6a;
+}
+
+.theme-ruby {
+    --ls-primary: #222;
+    --ls-light-text: #cc2936;
+    --ls-gray-text: #dd3a47;
+}
+
+/** standard themes **/
 .theme-sea, .theme-default {
     --ls-primary: #204e4a;
 }
 
 .theme-violet {
-    --ls-primary: #90708C;
+    --ls-primary: #731dd8;
 }
+
 
 .theme-blue {
     --ls-primary: #3aaed8;
 }
+
 .theme-white {
     --ls-primary: #EFE6DD;
     --ls-gray-text: #666;
     --ls-light-text: #111;
 }
+
+
