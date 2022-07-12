@@ -41,12 +41,12 @@ export default {
       streams: [
         {
           name: 'lofi hip hop radio - beats to relax/study to',
-          src: 'https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1',
+          src: 'https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1',
           type: 'youtube'
         },
         {
-          name: 'lofi hip hop radio - beats to sleep/chill to',
-          src: 'https://www.youtube.com/embed/DWcJFNfaw9c?autoplay=1',
+          name: 'coffee shop radio // 24/7 lofi hip-hop beats',
+          src: 'https://www.youtube.com/embed/5KAN9_CzSA?autoplay=1',
           type: 'youtube'
         }
       ]
